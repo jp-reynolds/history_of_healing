@@ -1,0 +1,42 @@
+body {
+	background-color: #cccccc;
+}
+
+.homeContainer {
+	text-align: center;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #acc0fd; 
+    z-index: -2;
+}
+
+.description {
+    text-align: center;
+    font-size: 2.5vw;
+    margin: 0 30%;
+    padding-bottom: 2em;
+}
+
+.homeContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2em;
+}
+
+.homeImage {
+    width: 70%;
+    justify-self: center;
+}
+
+.homeTextBox {
+    display: flex;
+    margin: 0 10%;
+    align-items: center;
+}
+
+.homeText {
+    font-size: 3vw;
+}

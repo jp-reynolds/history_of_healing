@@ -1,0 +1,29 @@
+.navContainer {
+	text-align: center;
+	background-color: white;
+	padding-top: 1px;
+}
+
+.homeTitle {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.logo {
+	margin-top: 1em;
+	padding-bottom: 1em;
+	width: 40%;
+}
+
+.navbar {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	padding-bottom: 1em;
+}
+
+.navItems {
+	display: inline;
+	font-size: 3vw;
+	padding: 1em;
+}
