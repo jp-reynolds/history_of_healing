@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import Header from './components/header/Header';
 import MyRoutes from './config/Routes'
+import './App.css'
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header/>
+    	<div>
+        <div className="App">
+        </div>
         { MyRoutes }
       </div>
     );

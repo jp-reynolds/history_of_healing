@@ -1,39 +1,33 @@
-body {
-	background-color: #cccccc;
-}
 
-.homeContainer {
-	text-align: center;
-	position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background-color: #acc0fd; 
-    z-index: -2;
+.descriptionBox {
+    background-image: radial-gradient(black, rgba(0, 0, 0, 0.5));
+    width: 87.5%;
+    margin: 0 6.25%;
 }
 
 .description {
     text-align: center;
     font-size: 2.5vw;
     margin: 0 30%;
-    padding-bottom: 2em;
+    color: white;
+    padding: 0.5em 0;
 }
 
 .homeContent {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 2em;
+    padding-top: 4vh;
+    margin-bottom: 10vh;
 }
 
 .homeImage {
-    width: 70%;
+    width: 75%;
     justify-self: center;
 }
 
 .homeTextBox {
     display: flex;
-    margin: 0 10%;
+    margin: 0 12.5%;
     align-items: center;
 }
 

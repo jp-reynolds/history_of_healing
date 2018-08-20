@@ -1,8 +1,14 @@
-html {
-    position: fixed;
+body {
+	background-color: #cccccc;
+}
+
+.App {
+	text-align: center;
+	position: fixed;
     top: 0;
     left: 0;
     width: 50%;
     height: 100%;
-    background-color: pink; 
+    background-color: #acc0fd; 
+    z-index: -2;
 }
