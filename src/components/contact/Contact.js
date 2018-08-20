@@ -6,9 +6,10 @@ import './Contact.css'
 class Contact extends Component {
   render() {
     return (
-    	<div>
+    	<div className="contactForms">
         <Header/>
-        <h1>Hello</h1>
+        <input className="inputContact"></input>
+        <input className="inputContact"></input>
     	</div>
     );
   }
