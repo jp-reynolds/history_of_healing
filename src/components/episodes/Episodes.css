@@ -11,20 +11,17 @@
 }
 
 .imageEpisode {
-	background-color: red;
 	height: 100%;
 	width: 100%;
-	border: 1px black solid;
 }
 
 .descriptionEpisode {
-	background-color: blue;
+	background-color: #acc0fd; 
 	height: 100%;
 	width: 100%;
 }
 
 .controlsEpisode {
-	background-color: green;
 	height: 100%;
 	width: 100%;
 }
